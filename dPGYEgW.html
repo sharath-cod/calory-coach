@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://cdpn.io/sharath-cod/fullpage/dPGYEgW?nocache=true&view= -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  
+
+    <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+    <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111">
+
+
+
+  
+    <script src="./stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js.download"></script>
+
+
+  <title>Untitled</title>
+
+    <link rel="canonical" href="https://codepen.io/sharath-cod/pen/dPGYEgW">
+  
+  
+  
+  
+<style>
+body {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipNxAUFX2zDRphY-00_jYHd9FptieXo2dYgn8N_5=s1360-w1360-h1020-rw');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input,
+select,
+button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #fff; /* optional: adds white border */
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+#suggestions {
+  margin-top: 20px;
+  text-align: left;
+}body {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipNxAUFX2zDRphY-00_jYHd9FptieXo2dYgn8N_5=s1360-w1360-h1020-rw');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input,
+select,
+button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #fff; /* optional: adds white border */
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+#suggestions {
+  margin-top: 20px;
+  text-align: left;
+}body {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipNxAUFX2zDRphY-00_jYHd9FptieXo2dYgn8N_5=s1360-w1360-h1020-rw');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input,
+select,
+button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #fff; /* optional: adds white border */
+  background-image: url('https://media.licdn.com/dms/image/v2/D560BAQE4MxIxQpHfxg/company-logo_200_200/company-logo_200_200/0/1694405105793/don_bosco_group_of_institutions_logo?e=2147483647&v=beta&t=AgxDu8_RTmA5fPt56Byv5Y4B5ACJ-bTFDyrso2OdimQ');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+
+#suggestions {
+  margin-top: 20px;
+  text-align: left;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+</head>
+
+<body translate="no">
+  <div class="container">
+  <img src""="" alt"dbitlogo"="" class="logo">
+  <h2>TEAM - D MAPS</h2>
+  <h1><u><span style="color: gray;">CALORIE COACH</span></u></h1>
+
+  <form id="calorie-form">
+    <label for="age">Age (years):</label>
+    <input type="number" id="age" required="" fdprocessedid="0j4vn">
+
+    <label for="height">Height (cm):</label>
+    <input type="number" id="height" required="" fdprocessedid="wd8gv">
+
+    <label for="weight">Weight (kg):</label>
+    <input type="number" id="weight" required="" fdprocessedid="jpcnw">
+
+    <label for="isVeg">Food type:</label>
+    <select id="isVeg" required="" fdprocessedid="b8fstm">
+      <option value="1">Vegetarian</option>
+      <option value="0">Non-Vegetarian</option>
+    </select>
+
+    <button type="submit" fdprocessedid="nzqs4">Calculate</button>
+  </form>
+
+  <div id="suggestions"></div>
+</div>
+  
+    <script id="rendered-js">
+// Food structure equivalents
+const vegFoods = [
+{ name: "Apple", calories: 95 }, { name: "Banana", calories: 105 },
+{ name: "Broccoli (1 cup)", calories: 55 }, { name: "Rice (1 cup cooked)", calories: 200 },
+{ name: "Bread (1 slice)", calories: 70 }, { name: "Carrot", calories: 40 },
+{ name: "Orange", calories: 62 }, { name: "Almonds (10 pieces)", calories: 70 },
+{ name: "Yogurt (1 cup)", calories: 150 }, { name: "Spinach (1 cup)", calories: 7 },
+{ name: "Cottage Cheese (1/2 cup)", calories: 100 }, { name: "Oatmeal (1 cup cooked)", calories: 154 },
+{ name: "Peanut Butter (2 tbsp)", calories: 190 }, { name: "Avocado", calories: 240 }];
+
+
+const nonVegFoods = [
+{ name: "Chicken (100g)", calories: 165 }, { name: "Banana", calories: 105 },
+{ name: "Egg", calories: 70 }, { name: "Apple", calories: 95 },
+{ name: "Broccoli (1 cup)", calories: 55 }, { name: "Rice (1 cup cooked)", calories: 200 },
+{ name: "Bread (1 slice)", calories: 70 }, { name: "Carrot", calories: 40 },
+{ name: "Orange", calories: 62 }, { name: "Almonds (10 pieces)", calories: 70 },
+{ name: "Yogurt (1 cup)", calories: 150 }, { name: "Salmon (100g)", calories: 200 },
+{ name: "Spinach (1 cup)", calories: 7 }, { name: "Cottage Cheese (1/2 cup)", calories: 100 },
+{ name: "Oatmeal (1 cup cooked)", calories: 154 }, { name: "Peanut Butter (2 tbsp)", calories: 190 },
+{ name: "Avocado", calories: 240 }];
+
+
+// Utility: Shuffle array
+function shuffleFoods(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {if (window.CP.shouldStopExecution(0)) break;
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }window.CP.exitedLoop(0);
+}
+
+// BMR calculation (no activity level)
+function calculateCalorieLevel(age, heightCm, weightKg, gender) {
+  let bmr = 10 * weightKg + 6.25 * heightCm - 5 * age;
+  bmr += gender === "M" ? 5 : -161;
+  return bmr;
+}
+
+// Suggest food items
+function suggestFood(calorieLevel, isVeg) {
+  const foods = isVeg ? [...vegFoods] : [...nonVegFoods];
+  shuffleFoods(foods);
+
+  let totalCalories = 0;
+  let suggestions = [];
+
+  for (const food of foods) {
+    if (totalCalories + food.calories <= calorieLevel) {
+      suggestions.push(`${food.name} (${food.calories} calories)`);
+      totalCalories += food.calories;
+    }
+    if (totalCalories >= calorieLevel) break;
+  }
+
+  let output = `<h3>To meet your calorie level of ${Math.round(calorieLevel)} calories, consider eating:</h3><ul>`;
+  for (const item of suggestions) {
+    output += `<li>${item}</li>`;
+  }
+  output += `</ul><strong>Total Calories Suggested: ${totalCalories}</strong>`;
+
+  document.getElementById("suggestions").innerHTML = output;
+}
+
+// Input collection and validation
+document.getElementById("calorie-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const age = parseInt(document.getElementById("age").value);
+  const height = parseFloat(document.getElementById("height").value);
+  const weight = parseFloat(document.getElementById("weight").value);
+  const isVeg = document.getElementById("isVeg").value === "1";
+
+  if (!isNaN(age) && !isNaN(height) && !isNaN(weight)) {
+    const calorieLevel = calculateCalorieLevel(age, height, weight);
+    suggestFood(calorieLevel, isVeg);
+  } else {
+    alert("Please enter valid numbers for age, height, and weight.");
+  }
+});
+//# sourceURL=pen.js
+  </script>
+
+  
+
+
+
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
