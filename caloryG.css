@@ -1,0 +1,197 @@
+body {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipNxAUFX2zDRphY-00_jYHd9FptieXo2dYgn8N_5=s1360-w1360-h1020-rw');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input,
+select,
+button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #fff; /* optional: adds white border */
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+#suggestions {
+  margin-top: 20px;
+  text-align: left;
+}body {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipNxAUFX2zDRphY-00_jYHd9FptieXo2dYgn8N_5=s1360-w1360-h1020-rw');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input,
+select,
+button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #fff; /* optional: adds white border */
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+#suggestions {
+  margin-top: 20px;
+  text-align: left;
+}body {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipNxAUFX2zDRphY-00_jYHd9FptieXo2dYgn8N_5=s1360-w1360-h1020-rw');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input,
+select,
+button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #fff; /* optional: adds white border */
+  background-image: url('https://media.licdn.com/dms/image/v2/D560BAQE4MxIxQpHfxg/company-logo_200_200/company-logo_200_200/0/1694405105793/don_bosco_group_of_institutions_logo?e=2147483647&v=beta&t=AgxDu8_RTmA5fPt56Byv5Y4B5ACJ-bTFDyrso2OdimQ');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+
+#suggestions {
+  margin-top: 20px;
+  text-align: left;
+}
+/* Background for Result Page */
+#resultPage {
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1490645935967-10de6ba17061');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+/* Result output background */
+#resultContent {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+/* Back button small style */
+#resultPage button {
+  width: 120px;
+  padding: 6px 10px;
+  font-size: 14px;
+  background-color: #ff5722;
+  border-radius: 6px;
+}
